@@ -1,5 +1,4 @@
-import { SvgIconProps, SvgIconTypeMap } from "@mui/material";
-import { OverridableComponent } from "@mui/material/OverridableComponent";
+import { SvgIconProps } from "@mui/material";
 import BlockIcon from '@mui/icons-material/Block';
 import DecentralizationIcon from '@mui/icons-material/AccountTree';
 import ConsensusIcon from '@mui/icons-material/HowToVote';

@@ -1,4 +1,4 @@
-import React, { useRef, useState, MouseEventHandler, ReactNode } from 'react';
+import React, { useState, MouseEventHandler, ReactNode } from 'react';
 import { Button } from "@mui/material";
 import './BlockChainDescription.sass';
 import {Parrafo} from './Parrafos';
