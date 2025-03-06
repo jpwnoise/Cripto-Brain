@@ -1,0 +1,63 @@
+.parrafo
+    background-color: rgba(0, 0, 0, 0.2) !important
+    color: rgb(153,105,105) !important
+    padding: 1rem
+    border-radius: 0.5rem
+    font-size: large
+
+.bloque
+    background-color: rgba(59, 143, 211, .1)
+    border-radius: .5rem
+    padding: .5rem
+    margin: .5rem
+
+.head
+    background-color: rgba(22, 12, 12, .2) !important
+
+.texto-gradiente
+    background-image: linear-gradient(to right, #005aff, #30ff86) !important
+    -webkit-background-clip: text !important
+    -webkit-text-fill-color: transparent !important
+    font-weight: bold !important
+
+.abrir-persiana
+    animation: abrirPresiana 0.5s ease-in-out forwards
+
+.cerrar-persiana
+    animation: cerrarPresiana 0.5s ease-in-out forwards
+
+.cerrado
+    transform: scale(0)
+
+.bloque-cerrado
+    height: 2rem
+
+.cerrar-bloque
+    animation: smaller 4s ease-in-out forwards
+
+.abrir-bloque
+    animation: smaller 1s ease-in-out reverse
+    
+@keyframes smaller
+    from 
+      height: 12rem
+    to 
+      height: 2rem     
+        
+
+
+@keyframes abrirPresiana
+    from
+        transform: scaleY(0)
+        opacity: 0
+    to
+        transform: scaleY(1)
+        opacity: 1
+
+@keyframes cerrarPresiana
+    from
+        transform: scaleY(1)
+    to
+        transform: scaleY(0)
+
+    
